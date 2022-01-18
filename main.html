@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Responsive page</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://kit.fontawesome.com/d22d919e8a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ 
+    <!-- Navigation bar -->
+<nav>
+    <a href="main.html"><img src="./Logo.png" alt=""></a>
+<div class="nav-links" id="navlinks">
+    <i class="fa fa-times" onclick="hidemenu()"></i>
+    <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#special">MENU</a></li>
+        <li><a href="#aboutus">ABOUT US</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
+</div>
+    
+    <i class="fas fa-bars" onclick="showmenu()"></i>
+</nav>
+
+<!-- Navigation bar ends -->
+
+
+<!-- hero section -->
+<section class="hero">
+<div class="text-box">
+    <h3>DreamWork Coffee</h3>
+    <p> Spark up your day.</p>
+    <button type="button" class="btn">Order Now</button>
+</div>   
+
+</section>
+
+<!-- hero section ends -->
+
+<!-- Special Menu Section  -->
+<h1 class="maintopic" id="special">Menu</h1>
+<section class="main">
+
+<div class="maintext">
+<div><img src="./coffee.png" alt=""></div> 
+<h2>Positively expresso</h2>
+   <p> Warm up with our creamy expresso coffee. It’s back for the season with a brown-buttery topping.
+ </p>
+   <button type="button">Order now</button>
+</div>
+
+<div class="maintext">
+    <div><img src="./burger.png" alt=""></div> 
+ <h2>Happy Meatless Monday!</h2>
+    <p>  Enjoy discount off the Impossible Breakfast Burger every Monday.</p>
+    <button type="button">Order now</button>
+ </div>
+
+ <div class="maintext">
+    <div><img src="./icecoff.png.jpg" alt=""></div> 
+ <h2>Shake up your usual!</h2>
+    <p> Explore lively layers and nondairy deliciousness with our Iced Shaken Espresso drinks. Under 200 calories.</p>
+    <button type="button">Choose your flavour</button>
+ </div>
+
+ <div class="maintext">
+    <div><img src="./sandwitch.png" alt=""></div> 
+ <h2>Best Chikwizz</h2>
+    <p>  Enjoy discount off the Impossible Breakfast Chikwizz every Monday.</p>
+    <button type="button">Order now</button>
+ </div>
+</section>
+
+<!-- Special Menu section ends -->
+
+<!-- About Us section -->
+
+<section class="aboutus">
+    <h2 id="aboutus">About us</h2>
+<p>*Valid at participating stores while supplies last. Cannot be combined with other offers, discounts or promotions. Impossible is a trademark of Impossible Foods Inc. Used under license</p>
+<p>**At participating stores. Some restrictions apply. See http://dreamworkcoffee.com/rewards for details.
+</p>
+<p>***Menu limited. Restricted delivery area. Available in participating locations only. Fees subject to change. Prices for Dreamwork Coffee® items purchased through Jumia Food may be higher than posted in stores or as marked. See the Jumia Food app for details.</p>
+</section>
+
+<div class="icons">
+
+</div>
+<p></p>
+<!-- About Us section ends -->
+
+
+<!-- contact us -->
+<div class="contact-back">
+<div class="container">
+<div class="title" id="contact">Contact Us</div>
+<form action="#">
+<div class="user-details"></divv>
+<div class="input-box">
+<span class="details">Full Name</span>
+<input type="text" placeholder="Enter your full name" required>
+</div>
+<div class="input-box">
+<span class="details">Username</span>
+<input type="text" placeholder="Enter your usrname" required>
+</div>
+<div class="input-box">
+    <span class="details">Email Address</span>
+    <input type="text" placeholder="Enter your email" required>
+    </div>
+    <div class="input-box">
+        <span class="details">Phone number</span>
+        <input type="text" placeholder="Enter your phone number" required>
+        </div>
+
+        <div class="input-box">
+            <span class="details">Message</span>
+            <textarea name="message" id="" cols="80" rows="10" placeholder="Send us a message" required></textarea>
+            </div>
+            <div class="input-box">
+
+                </div>
+                <div class="button">
+                    <input type="submit" value="Send Message">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- contact us ends -->
+
+<!-- footer section -->
+    <footer class="footer">
+        <div class="inner-footer">
+            <div class="social-links">
+                <ul>
+                    <li class="social-items"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+                <p>+2349037767609, +2348081865167, khreesnwandu@gmail.com.</p>
+
+            </div>
+        </div>
+        Copyright &copy; Christopher Coding Pro. All Rights Reserved
+    </footer>
+    
+<!-- footer ends -->
+
+
+<script>
+    var navlinks = document.getElementById("navlinks");
+function showmenu(){
+    navlinks.style.right = "0"
+}function hidemenu(){
+    navlinks.style.right = "-200px"
+}
+
+</script>
+
+</body>
+</html>
